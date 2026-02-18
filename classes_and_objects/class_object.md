@@ -21,3 +21,37 @@ function declaramation;
 // member functions:
 function declaramation;
 variable declaramation;
+
+```
+1. public
+Accessible from anywhere.
+
+2. private
+
+Accessible only inside the class.
+
+3. protected
+
+Accessible inside class + derived class.
+```
+
+
+
+
+
+some basic md tags every one should know
+```
+Symbol	 Use
+#	     Heading
+** **	 Bold
+* *	     Italic
+~~ ~~	 Strikethrough
+- / *	 Unordered list
+1.	     Ordered list
+[]()	 Link
+![]()	 Image
+`` `	 Code
+>	     Quote
+---	     Line
+
+```
