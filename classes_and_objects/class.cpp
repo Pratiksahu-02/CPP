@@ -10,15 +10,15 @@ class student{
     void display();
 };
 
-// void student::put_data(int r, float m){
-//     roll_no = r;
-//     marks = m;
-// }
+void student::put_data(int r, float m){
+    roll_no = r;
+    marks = m;
+}
 
-// void student::display(){
-//     cout << "Roll No: " << roll_no << endl;
-//     cout << "Marks: " << marks << endl;
-// }
+void student::display(){
+    cout << "Roll No: " << roll_no << endl;
+    cout << "Marks: " << marks << endl;
+}
 
 int main(){
     student s1;
