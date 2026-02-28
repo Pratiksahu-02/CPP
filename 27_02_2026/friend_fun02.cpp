@@ -13,3 +13,5 @@ class y{
 int main(){
     int show(x obj);
 }
+
+//output:5
