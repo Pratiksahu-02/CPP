@@ -5,6 +5,7 @@ int sum(int a, int b, int c = 0, int d = 0) {
 }
 int main() {
     int a, b, c, d;
+    cout<<"Enter four integers: "  ;
     cin >> a >> b >> c >> d;
     cout << sum(a, b, c, d);
     return 0;

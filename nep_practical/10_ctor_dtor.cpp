@@ -1,11 +1,15 @@
 #include <iostream>
 using namespace std;
-class A {
+class A
+{
 public:
-    A() { cout << "ctor"; }
-    ~A() { cout << "dtor"; }
+    A() { cout << "Constructor called\n"; }
+    ~A() { cout << "Destructor called\n"; }
 };
-int main() {
+int main()
+{
+    cout << "Creating object\n";
     A x;
+    cout << "Object created\n";
     return 0;
 }
